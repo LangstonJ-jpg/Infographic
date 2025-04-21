@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic Slider</title>
+    <link rel="stylesheet" href="styles/style.css">
+    </head>
+<body>
+    <div id="slider" class="slider">
+        <div class="slides">
+            <div class="slide" id="s1" style="background-color: #ff9999;">
+                <button class="start" onclick="slider.nextSlide()">Start</button>
+                <h1>Understanding Schizophrenia: <br> Dispelling Myths and Misconceptions </h1>
+                <p> Schizophrenia is one of the most misunderstood mental health conditions, often surrounded by myths and misconceptions.
+                    By addressing these misconceptions, we can reduce stigma and promote a better understanding of the condition. Let's explore the facts and learn how 
+                    we can support individuals living with schizophrenia.
+                </p>
+
+            </div>
+
+            <div class="slide" id="chart" style="background-color: antiquewhite;">
+                <h1>What does the public perception look like?</h1>
+                <p>A small survey was conducted and determined that the public has an incorrect perception of schizophrenia.
+                    The participants were prompted with the question of "Do people with schizophrenia have multiple personalities?" and were given a choice of True or False.
+                    The results of the survey were organized and presented in the corresponding chart.
+                </p>
+                <img src="./images/Survey Chart.png" style="width: 30%; height:70%; position:absolute; left: 160%; top: 20%">
+
+            </div>
+            
+            <div class="slide" id="s2" style="background-color: #99ccff;">
+                   <h1>Understanding Schizophrenia</h1>
+    <p>
+        Schizophrenia is a serious mental health condition that affects how a person thinks, feels, and behaves. 
+        It is often misunderstood and stigmatized, but it is a treatable condition with the right support and care.
+    </p>
+    <p>
+        Common symptoms include:
+        <ul>
+            <li><strong>Hallucinations:</strong> Hearing or seeing things that aren't there.</li>
+            <li><strong>Delusions:</strong> Strong beliefs that are not based on reality.</li>
+            <li><strong>Disorganized Thinking:</strong> Difficulty organizing thoughts or speech.</li>
+            <li><strong>Emotional Withdrawal:</strong> Reduced ability to express emotions or connect with others.</li>
+        </ul>
+    </p>
+    <p>
+        Schizophrenia is believed to result from a combination of genetic, biological, and environmental factors. 
+        Early diagnosis and treatment, including therapy and medication, can help individuals manage symptoms and 
+        lead fulfilling lives.
+        <a href="https://www.nimh.nih.gov/health/publications/schizophrenia"> Source </a>
+    </p>
+
+            </div>
+
+            <div class="slide" id="s3" style="background-color: #8daa9b;">
+                <h1>Understanding Dissociative Identity Disorder</h1>
+                <p>
+                    Dissociative Identity Disorder (DID), formerly known as Multiple Personality Disorder, 
+                    is a complex psychological condition characterized by the presence of two or more distinct 
+                    identities or personality states within a single individual.
+                </p>
+                <p>
+                    Common symptoms include:
+                    <ul>
+                        <li><strong>Memory Gaps:</strong> Difficulty recalling everyday events, personal information, or traumatic experiences.</li>
+                        <li><strong>Distinct Identities:</strong> Each identity may have its own name, age, gender, and behaviors.</li>
+                        <li><strong>Dissociation:</strong> Feeling detached from oneself or the environment.</li>
+                        <li><strong>Emotional Distress:</strong> Anxiety, depression, or other mood-related symptoms.</li>
+                    </ul>
+                </p>
+                <p>
+                    DID is often associated with severe trauma, particularly during early childhood, such as abuse or neglect. 
+                    Treatment typically involves psychotherapy to integrate the identities and address the underlying trauma.
+                    <a href="https://www.ncbi.nlm.nih.gov/books/NBK568768/"> Source </a>
+                </p>
+                
+            </div>
+
+            <div class="slide" id="s4" style="background-color: #f9f9f9;">
+                <div class="title-container">
+                    <h1>Fact or Fiction?
+                    </h1>
+                    <h4>Have you head any of these before?</h4>
+                </div>
+                <div class="myth-truth-pair" style="background-color: #ffcccc;">
+                    <p><strong>Myth:</strong> People with schizophrenia have multiple personalities.<br>
+                    <strong>Truth:</strong> Schizophrenia is not the same as Dissociative Identity Disorder. It involves symptoms like hallucinations, delusions, and disorganized thinking, but not multiple personalities.</p>
+                </div>
+                <div class="myth-truth-pair" style="background-color: #ccffcc;">
+                    <p><strong>Myth:</strong> People with Dissociative Identity Disorder are violent or dangerous.<br>
+                    <strong>Truth:</strong> Most individuals with DID are not violent. They are more likely to harm themselves than others and often struggle with trauma and emotional distress.</p>
+                </div>
+                <div class="myth-truth-pair" style="background-color: #cce5ff;">
+                    <p><strong>Myth:</strong> Schizophrenia is caused by bad parenting.<br>
+                    <strong>Truth:</strong> Schizophrenia is not caused by parenting. It is a complex condition influenced by genetic, biological, and environmental factors.</p>
+                </div>
+                <div class="myth-truth-pair" style="background-color: #ffe5b4;">
+                    <p><strong>Myth:</strong> DID is just a way for people to seek attention.<br>
+                    <strong>Truth:</strong> DID is a real and serious mental health condition often linked to severe trauma, particularly during childhood.</p>
+                </div>
+            </div>
+
+            <div class="slide" id="s5" style="background-color: darkseagreen; white-space: pre;">
+                <h1>Pop Quiz!</h1>
+                <h2>Question 1</h2>
+                <p>Dissociative identity disorder is a form of psychosis.</p>
+                <button class="true" onclick="slider.handleAnswer(false)">True</button>
+                <button class="false" onclick="slider.handleAnswer(true)">False</button>
+            </div>
+
+            <div class = "slide" id="s5" style="background-color: rgb(150, 95, 101);">
+                <h1> Pop Quiz</h1>
+                <h2>Question 2</h2>
+                <p>DID involves the presence of two or more distinct personality states.</p>
+                <button class="true" onclick="slider.handleAnswer(true)">True</button>
+                <button class="false" onclick="slider.handleAnswer(false)">False</button>
+            
+            
+            </div>
+            <div class = "slide" id="s5" style="background-color: hsl(27, 57%, 71%);">
+                <h1> Pop Quiz</h1>
+                <h2>Question 3</h2>
+                <p>Childhood trauma is a risk factor for schizophrenia and DID.</p>
+                <button class="true" onclick="slider.handleAnswer(true)">True</button>
+                <button class="false" onclick="slider.handleAnswer(false)">False</button>
+            
+            
+            </div>
+            <div class = "slide" id="s5" style="background-color: rgb(143, 131, 196);">
+                <h1> Pop Quiz</h1>
+                <h2>Question 4</h2>
+                <p>Schizophrenia means having a "split personality". </p>
+                <button class="true" onclick="slider.handleAnswer(false)">True</button>
+                <button class="false" onclick="slider.handleAnswer(true)">False</button>
+            
+            
+            </div>
+            <div class = "slide" id="s5" style="background-color: rgba(233, 159, 249, 0.799);">
+                <h1> Pop Quiz</h1>
+                <h2>Question 5</h2>
+                <p> DID is more common in men than women.</p>
+                <button class="true" onclick="slider.handleAnswer(false)">True</button>
+                <button class="false" onclick="slider.handleAnswer(true)">False</button>
+            
+            
+            </div>
+            <div class="slide" id="s10" style="background-color: lightgoldenrodyellow;">
+                <h1>Quiz Results</h1>
+                <p id="quiz-score">Your score will appear here.</p>
+                <button class="restart" onclick="slider.restartQuiz()">Restart Quiz</button>
+                <button class="next" onclick="slider.nextSlide()">&#10095;</button>
+            </div>
+
+            <div class="slide" style="background-color: rgb(112, 173, 235);">
+                <h1>How can we change the narrative? </h1>
+                <p> The best way to change the narrative is to be well-informed. With your new garnered knowledge
+                    it is essential that you take the time to properly educate those on issues that they lack an understanding of.
+                    Many of the misconceptions surrounding schizophrenia are mearly products of misinformation that arise due to a lack of education 
+                    regarding the condition and its effects. 
+                </p>
+
+            </div>
+        </div>
+
+        <button class="prev" onclick="slider.prevSlide()">&#10094;</button>
+        <button class="next" onclick="slider.nextSlide()">&#10095;</button>
+    </div>
+    <script src="../src/app.js"></script>
+    </body>
+</html>
